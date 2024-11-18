@@ -1,0 +1,23 @@
+{
+  "name": "project",
+  "module": "index.ts",
+  "workspaces": [
+    "packages/*"
+  ],
+  "type": "module",
+  "devDependencies": {
+    "@happy-dom/global-registrator": "^15.11.6",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@types/bun": "latest",
+    "@types/react": "^18.3.12"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "packageManager": "bun@1.1.34",
+  "dependencies": {
+    "react": "^18.3.1"
+  }
+}
